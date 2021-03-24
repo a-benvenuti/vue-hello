@@ -21,15 +21,12 @@ header{
   align-content: center;
   cursor: pointer;
 }
-h1{
-  color: #4fc08d;
-}
 img{
   height: 40px;
   width: auto;
 }
 .primary_color{
- color: #1e204d;
+ color: #4fc08d;
 }
 .secondary_color{
   color: #1e204d;

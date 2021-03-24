@@ -27,7 +27,7 @@
     <div id="root">
       <header>
         <a v-bind:href="link" class="box">
-          <h1>{{message}}</h1>
+          <h1 v-bind:class="color" v-on:mouseover="mouseOver" v-on:mouseleave="mouseLeave">{{message}}</h1>
           <img v-bind:src="img" alt="img1">
         </a>
       </header>
