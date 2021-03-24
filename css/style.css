@@ -1,0 +1,36 @@
+/* ----RESET---- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----/RESET---- */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+header{
+  background: linear-gradient(#1e204d, #d457d0);
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+h1{
+  color: #4fc08d;
+}
+img{
+  height: 40px;
+  width: auto;
+}
+.primary_color{
+ color: #1e204d;
+}
+.secondary_color{
+  color: #1e204d;
+}
